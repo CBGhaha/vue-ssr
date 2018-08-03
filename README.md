@@ -1,6 +1,6 @@
-# vue-demo
+# vue-ssr-demo
 
-> 学习vue-demo
+> 学习vue-demo-ssr
 
 ## Build Setup
 
@@ -8,14 +8,13 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 打包编译
+npm run ssr
 
-# build for production with minification
-npm run build
+# 启动node
+node server.js
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# 浏览
+localhos:8080
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
