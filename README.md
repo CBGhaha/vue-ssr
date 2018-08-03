@@ -15,6 +15,6 @@ npm run ssr
 node server.js
 
 # 浏览
-localhos:8080
+localhost:8080
 ```
 
