@@ -1,7 +1,6 @@
 <template>
   <div id='page1'>
       {{name}}
-      <router-link to="/page2">page2</router-link>
   </div>
 </template>
 <style scoped>

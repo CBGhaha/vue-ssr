@@ -5,6 +5,7 @@
     <div class='cell'><Count2/></div>=
     <div class='cell'><span>{{count1+count2}}</span></div>
     <router-view></router-view>
+    <Ll/>
   </div>
 </template>
 

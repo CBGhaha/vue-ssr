@@ -1,8 +1,8 @@
 <template>
   <div id='links'>
     <ul>
-      <router-link to="/">demo1</router-link>
-      <router-link to="/page2">demo2</router-link>
+      <router-link to="/">page1</router-link>
+      <router-link to="/page2">page2</router-link>
     </ul>
   </div>
 </template>
