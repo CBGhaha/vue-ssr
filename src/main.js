@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import creatRouter from './router'
-import store from './store/index';
+import store from './store/index'
 export default function creatApp(){
   let router=creatRouter()
   let app=new Vue({
@@ -10,5 +10,5 @@ export default function creatApp(){
     store,
     render: h => h(App)
   })
-  return{app,router}
+  return{app,router,store};
 }

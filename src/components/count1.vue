@@ -1,5 +1,5 @@
 <template>
-  <div id='page1'>
+  <div id='count1'>
     <input type="text" @input="numChange"/>
     {{errorMsg}}
   </div>
@@ -10,9 +10,10 @@
 <script>
   import {mapGetters, mapActions} from 'vuex';
   export default{
+    name:'count1',
     data(){
       return {
-        name: "page1",
+        name: "count1",
         errorMsg:''
       }
     },

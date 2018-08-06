@@ -5,6 +5,9 @@
 // export const getMsg = (state, state) => {
 //   state.msg = payload.msg;
 // }
-export const common = function(state, {key,date}){
-  state[key]=date;
+export const common = function(state, {key,data}){
+  state[key]=data;
+}
+export const initAjaxType = function(state, {key,data}){
+  state.initAjax[key]=data;
 }

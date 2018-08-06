@@ -36,6 +36,7 @@ const routers=routerMaps.map((item)=>{
 })
 export default function creatRouter() {
   return  new Router({
+    mode: 'history',
     routes:routers
   })
 }

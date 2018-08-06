@@ -5,5 +5,6 @@
 const state = {
   count1: 0,
   count2: 0,
+  initAjax:{}
 }
 export default state;
