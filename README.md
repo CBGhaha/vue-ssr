@@ -1,6 +1,6 @@
 # vue-ssr-demo
 
-> 学习vue-demo-ssr
+> vue-demo-ssr
 
 ## Build Setup
 
